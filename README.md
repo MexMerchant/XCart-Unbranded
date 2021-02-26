@@ -28,19 +28,24 @@ To rebrand this module, complete the following steps:
 1.In file `httpdocs/classes/XLite/Module/PaymentNetwork/Model/Payment/Processor/PaymentNetwork.php` change the following:
 	- Line 4: `* Copyright (c) 2016-present PaymentNetwork. All rights reserved.` change the copyright to your brand name
 	- Line 17: `const GATEWAYURL = "https://gateway.example.com/hosted/";` change the URL to that which we supply
+
 2. In file `httpdocs/classes/XLite/Module/PaymentNetwork/PaymentNetwork/Main.php` change the following:
 	- Line 23: ` * @author    PaymentNetwork Ltd <support@example.com>` change to your brand and support email
 	- Line 24: ` * @copyright Copyright (c) 2016-present PaymentNetwork Ltd <support@example.com>. All rights reserved` change to your brand and support email
+
 	- Line 39: `    return 'PaymentNetwork';` change PaymentNetwork to your brand name
 	- Line 48: `    return 'PaymentNetwork Hosted';` change PaymentNetwork to your brand name
 	- Line 75-76: `    return 'Adds the ability to take card payments for your online store '
            'via PaymentNetwork Hosted Payment Gateway.';` change PaymentNetwork to your brand name
+	
 3. In file `httpdocs/classes/XLite/Module/PaymentNetwork/PaymentNetwork/install.yaml` change the following:
 	- Line 7: `        name: PaymentNetwork` change PaymentNetwork to your brand name
 	- Line 14: `        value: https://gateway.example.com/hosted/` change the URL to that which we supply
+
 4. Finally replace the files:
 	- `httpdocs/classes/XLite/Module/PaymentNetwork/PaymentNetwork/icon.png` and
 	- `httpdocs/skins/admin/modules/PaymentNetwork/PaymentNetwork/method_icon.png` with your own brand logos
+	
 5. When downloading as a zip file, you can right-click and rename to remove the `Unbranded` text from the filename
 
 # Installing and configuring the module
